@@ -100,7 +100,7 @@ Console.FilterMatchRegex=
 Console.FilterMatchReplacement=
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
 Console.AppReadyRegex=^\[[\d.]+-[\d.:]+\]\[[ \d]+\]LogOnline: GotoState: NewState: Playing$
-Console.UserJoinRegex=^\[[\d.:-]+\]\[[ \d]*\]LogNet: Join succeeded: (?<username>.+)$
+Console.UserJoinRegex=^\[[\d.:-]+\]\[[ \d]*\]LogNet: Login request: \?Name=(?<username>.+?) userId: RedpointEOS:(?<userid>[\d\w]+) platform: RedpointEOS$
 Console.UserLeaveRegex=^\[[\d.:-]+\]\[[ \d]*\]LogNet: UChannel::Close: Sending CloseBunch\..+PC: \w+PlayerController(?:|.+)_C_\d+,.+UniqueId: RedpointEOS:(?<userid>[\d\w]+)
 Console.UserChatRegex=^\[Chat.*\] \[SteamID\:(?<userid>-?\d+)\] (?<username>.+?) \: (?<message>.+)$
 Console.UpdateAvailableRegex=^\[\d\d:\d\d:\d\d\] \[INFO\] A new server update is available! v[\d\.]+.$
